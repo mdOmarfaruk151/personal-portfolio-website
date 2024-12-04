@@ -1,9 +1,11 @@
 /* common shared styles */
 body{
-    font-family: "Lato", sans-serif ;
-    font-family: "Open Sans", sans-serif;
-    margin: 0;
-    
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 /* text orange color */
 .text-orange{
@@ -20,6 +22,21 @@ body{
     padding: 15px 35px;
 
 }
+/* section title style */
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+/* section description */
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+}
+
+
 
 /* nav related styles */
 nav{
@@ -51,6 +68,8 @@ nav a{
     margin-left: 121px;
     margin-top: 61px;
 }
+
+
 
 /* header related styles */
 .header{
@@ -89,4 +108,29 @@ nav a{
     font-weight: 800;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+
+
+/* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about sections styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+/* about info container */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+/* about info */
+.about-info{
+    text-align: center;
 }
