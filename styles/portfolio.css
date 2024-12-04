@@ -2,6 +2,7 @@
 body{
     font-family: "Lato", sans-serif ;
     font-family: "Open Sans", sans-serif;
+    margin: 0;
     
 }
 /* text orange color */
@@ -30,6 +31,7 @@ nav{
 nav > ul{
     display: flex;
     align-items: center;
+    margin: 0 150px;
 }
 /* nav list style */
 nav li {
@@ -46,4 +48,45 @@ nav a{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    margin-left: 121px;
+    margin-top: 61px;
+}
+
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 750px;
+
+}
+/* header banner */
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* header banner profile image */
+.profile-pic{
+    width: 500px;
+    
+}
+/* header banner text content left*/
+.banner-content{
+    max-width: 500px;
+}
+/* banner greeting */
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+/* banner title */
+.banner-title{
+    font-size: 85px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
