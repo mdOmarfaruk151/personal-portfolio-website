@@ -22,6 +22,9 @@ body{
     padding: 15px 35px;
 
 }
+.btn-primary:hover{
+    cursor:pointer;
+}
 /* section title style */
 .section-title{
     color: #181818;
@@ -208,9 +211,50 @@ main{
     margin: 30px;
 } 
 
-
 /* CV Download Button */
 .download-cv{
     text-align: center;
     margin-top: 50px;
+}
+
+
+/* Footer Style */
+footer{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+/* Footer Title */
+.footer-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+/* Footer Description */
+.footer-description{
+    font-size: 16px;
+}
+/* Footer Colum */
+.footer-column{
+    width: 50%;
+}
+
+/* Form Input */
+.contact input[type="text"], .contact input[type="email"], 
+textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+}
+
+/* Social Link */
+.social-links a {
+    margin-right: 25px;
+
 }
